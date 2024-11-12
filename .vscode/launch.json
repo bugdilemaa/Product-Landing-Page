@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Start using Default browser",
+        "runtimeExecutable": "npm",
+        "runtimeArgs": ["run", "start"],
+        "port": 3000
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Start using Chrome",
+        "runtimeExecutable": "npm",
+        "runtimeArgs": ["run", "startchrome"],
+        "port": 3000
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Start using Firefox",
+        "runtimeExecutable": "npm",
+        "runtimeArgs": ["run", "startfirefox"],
+        "port": 3000
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Start using Chrome Incognito",
+        "runtimeExecutable": "npm",
+        "runtimeArgs": ["run", "startchromeincognito"],
+        "port": 3000
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Start using Firefox Private",
+        "runtimeExecutable": "npm",
+        "runtimeArgs": ["run", "startfirefoxprivate"],
+        "port": 3000
+      }
+    ]
+  }
